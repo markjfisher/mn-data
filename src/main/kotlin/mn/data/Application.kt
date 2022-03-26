@@ -5,6 +5,7 @@ fun main(args: Array<String>) {
 	build()
 	    .args(*args)
 		.packages("mn.data")
+		.banner(false)
 		.start()
 }
 
